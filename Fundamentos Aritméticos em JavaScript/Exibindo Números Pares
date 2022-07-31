@@ -1,0 +1,14 @@
+// Valor informado pelo usuário "N"
+var valor = 0;
+
+valor = gets();
+
+// TODO Inclua a condição de parada adequada. 
+// Dica: note que o contador "i" é incrementado de 2 em 2 (sempre indo para o próximo par).
+
+
+for (let i = 1; i <= valor; i++) {
+  if (i % 2 === 0){
+  console.log(i);
+}
+};
